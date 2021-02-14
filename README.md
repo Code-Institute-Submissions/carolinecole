@@ -88,10 +88,25 @@ How to run this project locally
 
 ## Credits
 
+### Bugs Discovered 
+#### Solved bugs
+1. The font was coming up with an error when opened the DevTools. I went onto Tutor support to get some assistance as to which I needed to hard reload my browser.
+2. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first to eliminate the contact menu item being below) lesson to help fix this issue. 
+3. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support 
+
+
 ### Code
-* Code for Head links taken from 
-* Code for font taken from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) 
+
+#### HTML
+* Code for Head links taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/ba5caa84354740b78b7f6c0bfa4d9286/?child=last) and edited slightly to fit projects needs.
+* Code for font taken from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
+* Code for Title section taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
  
+ #### CSS
+*  Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+
 
 ## Content
 The text, and other data in the database were sources from the below websites:

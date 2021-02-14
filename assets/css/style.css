@@ -1,0 +1,83 @@
+/* credit: google fonts https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100 and edited slightly to fit projects needs*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+/* credit: code for... has been taken from ... and edited slightly to fit projects needs */
+
+
+
+
+/*-----------------------------------------------------------Colours*/
+
+
+
+
+
+
+/*-----------------------------------------------------------Heading*/
+
+/* credit: code for heading taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited slightly to projects needs*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+/* bugs solved: had an issue with my font not loading, I spoke to tutor support and he advised to re-copy and paste the font of my choice from google fonts and then as it still did not work do a hard relaod of my browser page*/
+.name {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #555555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.list-inline {
+    margin: 0;
+    float: none;
+    text-transform: none;
+    text-align: center;
+    position: relative;
+    color: #525252;
+}
+
+.menucontainer {
+    font-size: 0px;
+}
+
+.menucontainer li {
+    font-size: 18px;
+}
+
+nav li {
+    font-size: 18px;
+    padding: 0;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+/* bugs solved: this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first to eliminate the contact menu item being below */
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+/*-----------------------------------------------------------Heading*/
+
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: #525252;
+}
