@@ -18,7 +18,7 @@
 
 /*-----------------------------------------------------------Heading*/
 
-/* credit: code for heading taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited slightly to projects needs*/
+/* credit: code for heading section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited slightly to projects needs*/
 
 header {
     margin: 0;
@@ -28,6 +28,7 @@ header {
     margin: 0;
     text-align: center;
     position: relative;
+    float: none;
 }
 
 /* bugs solved: had an issue with my font not loading, I spoke to tutor support and he advised to re-copy and paste the font of my choice from google fonts and then as it still did not work do a hard relaod of my browser page*/
@@ -36,48 +37,87 @@ header {
     font-weight: 200;
     font-size: 50px;
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     color: #555555;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .list-inline {
-    margin: 0;
+    margin: 10px;
     float: none;
-    text-transform: none;
-    text-align: center;
-    position: relative;
-    color: #525252;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .menucontainer {
     font-size: 0px;
+    text-align: center;
 }
 
 .menucontainer li {
     font-size: 18px;
 }
 
-nav li {
-    font-size: 18px;
-    padding: 0;
-}
-
 .list-inline-item {
     display: inline-block;
+}
+
+/* credit: code for heading section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and amended slightly to fit my projects needs */
+
+.list-inline-item a {
+    color: #555555;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0;
 }
 
 /* bugs solved: this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first to eliminate the contact menu item being below */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
-}
+} 
 
-/*-----------------------------------------------------------Heading*/
+
+/*-----------------------------------------------------------Body*/
 
 
 body {
     font-family: 'montserrat', sans-serif;
     color: #525252;
 }
+
+
+
+
+/*-----------------------------------------------------------Footer*/
+
+footer {
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+/* credit: code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first and edited to fit projects needs */
+
+.site-footer {
+    font-family: 'montserrat' sans-serif;
+    color: #fafafa;
+    background-color: #525252;
+    min-height: 60px;
+    padding: 0;
+    margin-top: 100%;
+}
+
+.site-footer a {
+    color: #fafafa;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    width: 100%;
+}
+

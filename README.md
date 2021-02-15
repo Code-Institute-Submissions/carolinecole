@@ -72,8 +72,10 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 
 ## Technologies Used
-* [Google Fonts](https://https://fonts.google.com/) has been used for my 
-* [Font awesome](https://fontawesome.com/) has been used for my social media links in my header
+* [Google Fonts](https://https://fonts.google.com/) has been used for my.
+* [Font awesome](https://fontawesome.com/) has been used for my social media links in my header.
+* [Hover.CSS](https://ianlunn.github.io/Hover/) has been used for my menu bar hover.
+* [CDNJS](https://cdnjs.com/libraries?q=hover) has been used for my menu bar hover.
 
 
 ## Testing
@@ -92,8 +94,17 @@ How to run this project locally
 #### Solved bugs
 1. The font was coming up with an error when opened the DevTools. I went onto Tutor support to get some assistance as to which I needed to hard reload my browser.
 2. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first to eliminate the contact menu item being below) lesson to help fix this issue. 
-3. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support 
-
+3. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support and I had a div taking up a huge section of the page so I removed the below code which I got from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first):
+    ```<div class="row no-gutters">
+        <a href="index.html" class="col-md-4 logo"></a>
+        <div class="col-md-8"> 
+           <div class="row bg-color-name-title">
+           ```
+After amending this code, it menu bar still was not in the center of the page. I spend a while looking at my website on DevTools and selecting bit and eventually I added in the below code to CSS targeting the menu bar which has fixed the problem. 
+``` .menucontainer {
+    font-size: 0px;
+    text-align: center;
+} ```
 
 ### Code
 
@@ -102,11 +113,18 @@ How to run this project locally
 * Code for font taken from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
 * Code for Title section taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
 * Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
- 
- #### CSS
-*  Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
-* Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for hover button taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first)and edited slightly to fit projects needs.
+* Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
+* Code taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and amended to fit project.
+* Code for Youtube logo taken from [Font Awesome](https://fontawesome.com/icons/youtube?style=brands).
+*Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
 
+
+ #### CSS
+* Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for the menu bar which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
+* Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
 
 ## Content
 The text, and other data in the database were sources from the below websites:
