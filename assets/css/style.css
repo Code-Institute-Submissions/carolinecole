@@ -6,14 +6,11 @@
 
 /* credit: code for... has been taken from ... and edited slightly to fit projects needs */
 
+/*-----------------------------------------------------------General*/
 
-
-
-/*-----------------------------------------------------------Colours*/
-
-
-
-
+.text-center {
+    text-align: center;
+}
 
 
 /*-----------------------------------------------------------Heading*/
@@ -38,7 +35,7 @@ header {
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 10px;
-    color: #555555;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -79,16 +76,87 @@ header {
 } 
 
 
+.subheading {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+/* credit: inspiration for this code from https://wearetwinset.com/ but amended to fit project */
+
+.subheading-background {
+    background-color: #555555;
+    height: 1.2px;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    top: 190px;
+}
+
 /*-----------------------------------------------------------Body*/
 
 
 body {
     font-family: 'montserrat', sans-serif;
-    color: #525252;
+    color: #555555;
 }
 
 
 
+/*-----------------------------------------------------------About*/
+
+/* credit: code taken from https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css and amended to fit project */
+/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */
+
+.about-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.about-text {
+    color: #555555;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------Contact*/
+
+/* credit: code for this section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first and amended to fit project */
+
+.contact-heading {
+    color: #555555;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #fafafa;
+    background-color: #555555;
+}
+
+@media(min-width: 992px) {
+        .center-form {
+            padding-top: 30px;
+            min-height: 240px;
+            margin: 0 auto;
+            max-width: 50%;
+    }   
+}
 
 /*-----------------------------------------------------------Footer*/
 
@@ -104,10 +172,9 @@ footer {
 .site-footer {
     font-family: 'montserrat' sans-serif;
     color: #fafafa;
-    background-color: #525252;
+    background-color: #555555;
     min-height: 60px;
     padding: 0;
-    margin-top: 100%;
 }
 
 .site-footer a {
@@ -117,7 +184,12 @@ footer {
     margin-bottom: 20px;
 }
 
-.social-links {
-    width: 100%;
-}
+/* credit: code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first and amended to fit websites needs */
 
+.social-links {
+    color: #fafafa;
+    text-align: center;
+    padding: 8px;
+    width: 20px;
+    height: 20px;
+}

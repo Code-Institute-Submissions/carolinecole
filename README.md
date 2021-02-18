@@ -48,13 +48,15 @@ I chose to use Montserrat font from [Google Fonts](https://https://fonts.google.
 I chose to use the Twitter, Youtube and Instagram icons in my project with links to those pages from [Font awesome](https://fontawesome.com/).
 
 ### Colours
-I chose to keep the colours simple using dark grey for fonts and a white background. My page is a blog which will consist of lots of images and information, therefore I did not want make anything too busy.
+I chose to keep the colours simple using dark grey for fonts and a white background. My page is a blog which will consist of lots of images and information, therefore I did not want make anything too busy. During my projeect I decided to use black for my heading to make it stand out as much as possible and a darker grey for the writing.
 
 ### Styling
 
 ### Backgrounds
+I chose to keepo the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content.
 
 ### Images
+
 
 ## Wireframes
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
@@ -73,7 +75,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 ## Technologies Used
 * [Google Fonts](https://https://fonts.google.com/) has been used for my.
-* [Font awesome](https://fontawesome.com/) has been used for my social media links in my header.
+* [Font awesome](https://fontawesome.com/) has been used for my social media links in my header and footer.
 * [Hover.CSS](https://ianlunn.github.io/Hover/) has been used for my menu bar hover.
 * [CDNJS](https://cdnjs.com/libraries?q=hover) has been used for my menu bar hover.
 
@@ -101,10 +103,16 @@ How to run this project locally
            <div class="row bg-color-name-title">
            ```
 After amending this code, it menu bar still was not in the center of the page. I spend a while looking at my website on DevTools and selecting bit and eventually I added in the below code to CSS targeting the menu bar which has fixed the problem. 
-``` .menucontainer {
+```.menucontainer {
     font-size: 0px;
     text-align: center;
-} ```
+    } 
+    ```
+
+    
+4. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
+5. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
+6.
 
 ### Code
 
@@ -117,14 +125,20 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
 * Code taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and amended to fit project.
 * Code for Youtube logo taken from [Font Awesome](https://fontawesome.com/icons/youtube?style=brands).
-*Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
+* Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
+* Code on About page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended.
+* Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
 
 
  #### CSS
 * Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
 * Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
 * Code for the menu bar which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
-* Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
+* Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
+* Code for about page image taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
+* Code for subheading background taken from [wearetwinset](https://wearetwinset.com/) and edited to fit project.
+* Code for to centralise about page image taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
+** Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
 
 ## Content
 The text, and other data in the database were sources from the below websites:
@@ -135,7 +149,8 @@ The text, and other data in the database were sources from the below websites:
 
 ## Media
 * The photos used on the 'Home' page were obtained from my own personal archive.
-* The photos used on 'Shop' page were obtained from [Net a Porter](https://www.net-a-porter.com/en-gb/), [Farfetch](https://www.farfetch.com/uk/) and [Selfidges](https://www.selfridges.com/GB/en/)
+* The photos used on 'Shop' page were obtained from [Net a Porter](https://www.net-a-porter.com/en-gb/), [Farfetch](https://www.farfetch.com/uk/) and [Selfidges](https://www.selfridges.com/GB/en/).
+* The logo for my footer were taken from [Font Awesome](https://fontawesome.com/).
 
 
 ## Acknowledgements
