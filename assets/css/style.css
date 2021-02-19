@@ -1,6 +1,7 @@
 /* credit: google fonts https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100 and edited slightly to fit projects needs*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 
 
@@ -30,14 +31,13 @@ header {
 
 /* bugs solved: had an issue with my font not loading, I spoke to tutor support and he advised to re-copy and paste the font of my choice from google fonts and then as it still did not work do a hard relaod of my browser page*/
 .name {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 200;
+    font-family: 'Questrial', sans-serif;
     font-size: 50px;
     margin-top: 50px;
     margin-bottom: 10px;
     color: #000000;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 6px;
 }
 
 .list-inline {
@@ -95,11 +95,37 @@ header {
     top: 190px;
 }
 
+/*-----------------------------------------------------------Index*/
+
+.blog-post-img {
+    width: auto;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 0;
+
+}
+
+.blog-post-link {
+    color: #000000;
+}
+
+.blog-post-description {
+    font-size: 16px;
+    padding-top: 0;
+    padding-bottom: 60px;
+    line-height: 0;
+    background-color: rgba(33,104,97,0.1);
+    margin: 0;
+}
+
+
+
 /*-----------------------------------------------------------Body*/
 
 
 body {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Questrial', sans-serif;
     color: #000000;
 }
 
@@ -121,9 +147,10 @@ body {
 
 .about-text {
     color: #000000;
-    font-weight: 400;
+    font-weight: 800px;
     text-align: center;
     padding-bottom: 20px;
+    line-height: 1px;
 }
 
 /*-----------------------------------------------------------Shop*/
@@ -148,7 +175,7 @@ body {
 }
 
 
-.img-shop:hover .btn-shop {
+.img-btn:hover .btn-shop {
   visibility: visible;
 }
 
@@ -193,6 +220,27 @@ body {
             max-width: 50%;
     }   
 }
+
+
+/*-----------------------------------------------------------How to Style Mom Jeans*/
+
+.mom-jeans-header {
+    margin: 0;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mom-jeans-p {
+    margin: 0;
+    color: #000000;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 /*-----------------------------------------------------------Footer*/
 
