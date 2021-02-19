@@ -78,6 +78,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Font awesome](https://fontawesome.com/) has been used for my social media links in my header and footer.
 * [Hover.CSS](https://ianlunn.github.io/Hover/) has been used for my menu bar hover.
 * [CDNJS](https://cdnjs.com/libraries?q=hover) has been used for my menu bar hover.
+* [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) has been used throughout my project.
 
 
 ## Testing
@@ -128,7 +129,7 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
 * Code on About page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended.
 * Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
-
+* Code for my shop page images layout was taken from [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) and amended to fit projet.
 
  #### CSS
 * Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
