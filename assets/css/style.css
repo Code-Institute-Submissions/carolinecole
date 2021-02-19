@@ -63,7 +63,7 @@ header {
 /* credit: code for heading section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and amended slightly to fit my projects needs */
 
 .list-inline-item a {
-    color: #555555;
+    color: #000000;
     font-weight: 600;
     text-decoration: none;
     padding: 0;
@@ -100,7 +100,7 @@ header {
 
 body {
     font-family: 'montserrat', sans-serif;
-    color: #555555;
+    color: #000000;
 }
 
 
@@ -120,7 +120,7 @@ body {
 }
 
 .about-text {
-    color: #555555;
+    color: #000000;
     font-weight: 400;
     text-align: center;
     padding-bottom: 20px;
@@ -147,6 +147,7 @@ body {
     transform: translateY(-250px);
 }
 
+
 .img-shop:hover .btn-shop {
   visibility: visible;
 }
@@ -158,7 +159,7 @@ body {
 /* credit: code for this section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first and amended to fit project */
 
 .contact-heading {
-    color: #555555;
+    color: #000000;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -169,6 +170,10 @@ body {
     padding-bottom: 60px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+.form-control {
+    background-color: rgba(33,104,97,0.1);
 }
 
 

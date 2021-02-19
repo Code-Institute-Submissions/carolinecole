@@ -114,7 +114,7 @@ After amending this code, it menu bar still was not in the center of the page. I
 4. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
 5. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
 6. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
-7. The button for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. 
+7. The button for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to the 
 
 ### Code
 
