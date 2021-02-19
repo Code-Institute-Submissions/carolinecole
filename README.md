@@ -113,7 +113,8 @@ After amending this code, it menu bar still was not in the center of the page. I
     
 4. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
 5. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
-6.
+6. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
+7. The button for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. 
 
 ### Code
 
@@ -130,6 +131,7 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code on About page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended.
 * Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
 * Code for my shop page images layout was taken from [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) and amended to fit projet.
+* Code for button taken from https://getbootstrap.com/docs/4.1/components/buttons/
 
  #### CSS
 * Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
@@ -139,7 +141,8 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code for about page image taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
 * Code for subheading background taken from [wearetwinset](https://wearetwinset.com/) and edited to fit project.
 * Code for to centralise about page image taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
-** Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
+* Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
+* Code for hover button from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
 
 ## Content
 The text, and other data in the database were sources from the below websites:

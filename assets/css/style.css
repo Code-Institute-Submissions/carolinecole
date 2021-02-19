@@ -85,9 +85,10 @@ header {
 
 /* credit: inspiration for this code from https://wearetwinset.com/ but amended to fit project */
 
+
 .subheading-background {
-    background-color: #555555;
-    height: 1.2px;
+    background-color: #216861;
+    height: 4px;
     position: absolute;
     right: 20px;
     left: 20px;
@@ -122,18 +123,33 @@ body {
     color: #555555;
     font-weight: 400;
     text-align: center;
-}
-
-/*-----------------------------------------------------------Heading*/
-
-.img-shop {
-    padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0 auto;
-    max-width: 70%;
 }
 
+/*-----------------------------------------------------------Shop*/
 
+.item-img {
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+/* credit: code taken from website to help me get the button to disappear and appear when the image is hovered over https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870 */
+
+.btn-shop {
+    visibility: hidden;
+    background-color: #216861;
+    color:#fafafa;
+    border-color: #216861;
+    font-weight: 600px;
+    transform: translateY(-250px);
+}
+
+.img-shop:hover .btn-shop {
+  visibility: visible;
+}
 
 
 
@@ -143,22 +159,25 @@ body {
 
 .contact-heading {
     color: #555555;
-    font-weight: 300;
-    margin-top: 25px;
+    font-weight: 400;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
 .center-form {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
     margin: 0 auto;
     max-width: 70%;
 }
 
-button[type="submit"] {
+
+.btn-contact[type="submit"] {
     margin-top: 15px;
     margin-bottom: 40px;
     color: #fafafa;
-    background-color: #555555;
+    background-color: #216861;
+    border-color: #216861;
 }
 
 @media(min-width: 992px) {
@@ -184,8 +203,8 @@ footer {
 .site-footer {
     font-family: 'montserrat' sans-serif;
     color: #fafafa;
-    background-color: #555555;
-    min-height: 60px;
+    background-color: #216861;
+    min-height: 50px;
     padding: 0;
 }
 
