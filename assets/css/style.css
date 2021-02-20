@@ -7,11 +7,39 @@
 
 /* credit: code for... has been taken from ... and edited slightly to fit projects needs */
 
-/*-----------------------------------------------------------General*/
+/*-----------------------------------------------------------General, Buttons, Fonts*/
 
 .text-center {
     text-align: center;
 }
+
+.btn-shop {
+    visibility: hidden;
+    background-color: #216861;
+    color:#fafafa;
+    border-color: #216861;
+    font-weight: 600px;
+    transform: translateY(-250px);
+}
+
+
+.img-btn:hover .btn-shop {
+  visibility: visible;
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+    color: #000000;
+}
+
+.navbar {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #216861;;
+}
+
 
 
 /*-----------------------------------------------------------Heading*/
@@ -40,25 +68,15 @@ header {
     letter-spacing: 6px;
 }
 
-.list-inline {
-    margin: 10px;
-    float: none;
-    padding-left: 20%;
-    padding-right: 20%;
-}
 
-.menucontainer {
-    font-size: 0px;
-    text-align: center;
-}
+.menu {
+    padding-top: 20px;
+} 
 
-.menucontainer li {
+.menu li {
     font-size: 18px;
 }
 
-.list-inline-item {
-    display: inline-block;
-}
 
 /* credit: code for heading section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and amended slightly to fit my projects needs */
 
@@ -79,7 +97,8 @@ header {
 .subheading {
     text-align: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
     font-weight: 900;
 }
 
@@ -88,7 +107,7 @@ header {
 
 .subheading-background {
     background-color: #216861;
-    height: 4px;
+    height: 2.5px;
     position: absolute;
     right: 20px;
     left: 20px;
@@ -101,22 +120,16 @@ header {
     width: auto;
     height: 400px;
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 0;
-
+    display: inline;
 }
 
 .blog-post-link {
-    color: #000000;
+    color: #fafafa;
 }
 
 .blog-post-description {
     font-size: 16px;
-    padding-top: 0;
-    padding-bottom: 60px;
-    line-height: 0;
-    background-color: rgba(33,104,97,0.1);
-    margin: 0;
+    padding-bottom: 50px;
 }
 
 
@@ -124,10 +137,7 @@ header {
 /*-----------------------------------------------------------Body*/
 
 
-body {
-    font-family: 'Questrial', sans-serif;
-    color: #000000;
-}
+
 
 
 
@@ -165,19 +175,7 @@ body {
 
 /* credit: code taken from website to help me get the button to disappear and appear when the image is hovered over https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870 */
 
-.btn-shop {
-    visibility: hidden;
-    background-color: #216861;
-    color:#fafafa;
-    border-color: #216861;
-    font-weight: 600px;
-    transform: translateY(-250px);
-}
 
-
-.img-btn:hover .btn-shop {
-  visibility: visible;
-}
 
 
 

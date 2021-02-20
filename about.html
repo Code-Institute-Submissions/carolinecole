@@ -14,6 +14,7 @@
 </head>
 <body>
     <header>
+        <header>
     <!--credit: code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited to fit projects needs-->
                 <div class="col heading">
                     <h1 class="name">Caroline Cole</h1>
@@ -21,26 +22,38 @@
             </div>
             <!--code taken for div, li and a from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited slightly to fit projects needs-->
             <!--code taken for hvr-grow class from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited slightly to fit projects needs-->
+            <div class="container">
             <div class="row">
+                <!--code for hamburger taken from https://getbootstrap.com/docs/4.1/components/navbar/ and amended to fit project-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
                 <a href="index.html"></a>
-                <div class="col">
-                    <ul id="nav" class="list-inline menucontainer">
-                        <li class="col-6 col-sm-3 list-inline-item">
+                <div class="container">
+                <div class="row collapse navbar-collapse" id="main-navbar">
+                    <div class="col">
+                    <ul id="nav" class="list-inline menu navbar-nav mr-auto">
+                        <li class="col-6 col-sm-3 list-inline-item nav-item active">
                             <a href="index.html" class="hvr-grow"><span>Home</span></a>
                         </li>
-                        <li class="col-6 col-sm-3 list-inline-item">
+                        <li class="col-6 col-sm-3 list-inline-item nav-item">
                             <a href="about.html" class="hvr-grow"><span>About</span></a>
                         </li>
-                        <li class="col-6 col-sm-3 list-inline-item">
+                        <li class="col-6 col-sm-3 list-inline-item nav-item">
                             <a href="shop.html" class="hvr-grow"><span>Shop</span></a>
                         </li>
-                        <li class="col-6 col-sm-3 list-inline-item">
+                        <li class="col-6 col-sm-3 list-inline-item nav-item">
                             <a href="contact.html" class="hvr-grow"><span>Contact</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
+            </div>
         </div>
+    </div>
+    </div>
     </div>
     </header>
     <section>
@@ -94,4 +107,7 @@
 
     </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </html>
