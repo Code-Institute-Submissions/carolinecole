@@ -50,14 +50,11 @@ I chose to use the Twitter, Youtube and Instagram icons in my project with links
 ### Colours
 I chose to keep the colours simple using black for fonts and a white background. Oringinally I wanted to do dark grey however I decided black stood out more, was easier to read and more user friendly.
 
-### Styling
-
-
 ### Backgrounds
-I chose to keep the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content. I added a love teal green to the heading line and footer to add some colour which I think suits the website and looks very chic.
+I chose to keep the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content. I added a lovely teal green to the heading line and footer to add some colour which I think suits the website and looks very chic.
 
 ### Images
-The images on my home page, about page and blog post pages have all been obtained from my personal archive of images. The shop page images have all been obtained from [H&M](https://www2.hm.com/en_gb/index.html) and a link has been added to these so my users can visit the page accordingly.
+The images on my home page, about page and blog post pages have all been obtained from my personal archive of images. The shop page images have all been obtained from [H&M](https://www2.hm.com/en_gb/index.html) and [Net a Porter](https://www.net-a-porter.com/en-gb/)and a link has been added to these so my users can visit the page accordingly.
 
 ## Wireframes
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
@@ -89,9 +86,12 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js)
 
 ## Testing
-
-
-
+* W3C validation came up with a few amendments I have added below:
+1. I needed to remove the ``` autocomplete="off" ``` attribute and added in the ``` role="button" ``` attribute on my shop page and home page.
+``` <a href="how-to-style-mom-jeans.html" class="btn btn-primary btn-shop blog-post-link" aria-pressed="false" autocomplete="off">Link to product</a> ```
+2. I needed to change the ``` aria-controls=navbarSupportedContent ``` to ``` aria-controls="main-navbar" ``` so it targeted a nav in my document.
+```<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"> ```
+* W3C CSS validator, a few minor amendments appeared which I have actioned.
 
 ## Deployment
 
@@ -165,7 +165,7 @@ The text, and other data in the database were sources from the below websites:
 
 ## Media
 * The photos used on the 'Home' page were obtained from my own personal archive.
-* The photos used on 'Shop' page were obtained from [H&M](https://www2.hm.com/en_gb/index.html).
+* The photos used on 'Shop' page were obtained from [H&M](https://www2.hm.com/en_gb/index.html) and [Net a Porter](https://www.net-a-porter.com/en-gb/).
 * The logo for my footer were taken from [Font Awesome](https://fontawesome.com/).
 
 

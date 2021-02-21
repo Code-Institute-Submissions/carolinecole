@@ -18,7 +18,6 @@
     background-color: #216861;
     color:#fafafa;
     border-color: #216861;
-    font-weight: 600px;
     transform: translateY(-250px);
 }
 
@@ -154,7 +153,6 @@ header {
 
 .about-text {
     color: #000000;
-    font-weight: 800px;
     text-align: center;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -259,7 +257,6 @@ footer {
 /* credit: code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first and edited to fit projects needs */
 
 .site-footer {
-    font-family: 'montserrat' sans-serif;
     color: #fafafa;
     background-color: #216861;
     min-height: 50px;
