@@ -219,22 +219,32 @@ header {
 
 /*-----------------------------------------------------------How to Style Mom Jeans*/
 
-.mom-jeans-header {
+.blog-p {
     margin: 0;
     color: #000000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.mom-jeans-p {
-    margin: 0;
-    color: #000000;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.blog-img-section {
+    left: 0;
+    right: 0;
+}
+
+.blog-img-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog-img {
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
 
 
 /*-----------------------------------------------------------Footer*/
