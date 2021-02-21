@@ -42,25 +42,32 @@ Caroline Cole will meet users needs by:
 * I designed this website to be 
 
 ### Fonts
-I chose to use Montserrat font from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) in my project because it is simple, easy to read and stylist. 
+I chose to use Questrial font from [Google Fonts]('https://fonts.googleapis.com/css2?family=Questrial&display=swap') in my project because it is simple, easy to read and stylish. Oringinally I wanted to use Montserrat font but I decided it was quite faint and not very easy to read so I changed to more of a solid font.
 
 ### Icons
 I chose to use the Twitter, Youtube and Instagram icons in my project with links to those pages from [Font awesome](https://fontawesome.com/).
 
 ### Colours
-I chose to keep the colours simple using dark grey for fonts and a white background. My page is a blog which will consist of lots of images and information, therefore I did not want make anything too busy. During my projeect I decided to use black for my heading to make it stand out as much as possible and a darker grey for the writing.
+I chose to keep the colours simple using black for fonts and a white background. Oringinally I wanted to do dark grey however I decided black stood out more, was easier to read and more user friendly.
 
 ### Styling
 
+
 ### Backgrounds
-I chose to keepo the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content.
+I chose to keep the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content. I added a love teal green to the heading line and footer to add some colour which I think suits the website and looks very chic.
 
 ### Images
-
+The images on my home page, about page and blog post pages have all been obtained from my personal archive of images. The shop page images have all been obtained from [H&M](https://www2.hm.com/en_gb/index.html) and a link has been added to these so my users can visit the page accordingly.
 
 ## Wireframes
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
-
+* [Home page](assets/wireframes/home-page.pdf)
+* [About page](assets/wireframes/about-page.pdf)
+* [Shop page](assets/wireframes/shop-page.pdf)
+* [Contact](assets/wireframes/home-page.pdf)
+* [Five ways to get through lockdown!](assets/wireframes/blog-page.pdf)
+* [How to style Mom jeans!](assets/wireframes/blog2-page.pdf)
+* [Guide to buying the perfect sportwear!](assets/wireframes/blog3-page.pdf)
 
 ## Features
 
@@ -79,7 +86,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Hover.CSS](https://ianlunn.github.io/Hover/) has been used for my menu bar hover.
 * [CDNJS](https://cdnjs.com/libraries?q=hover) has been used for my menu bar hover.
 * [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) has been used throughout my project.
-
+* [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js)
 
 ## Testing
 
@@ -111,12 +118,11 @@ After amending this code, it menu bar still was not in the center of the page. I
     } 
            ```
 
-    
 4. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
 5. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
 6. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
 7. The buttons for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to my code that enabled the image to be positioned in the middle of my image and it works exactly how I want it to now.
-8. The hamburger button was not functioning, I contacted tutor support and it was due to not having the <script> links at the bottom of my HTML file. Once this was added in it fuctioned properly.
+8. The hamburger button was not functioning, I contacted tutor support and it was due to not having the ```<script> ```links at the bottom of my HTML file. Once this was added in it fuctioned properly.
 9. After I added hamburger bar added a square colour to the side of my menu bar. I needed 
 10. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
 
@@ -152,14 +158,14 @@ After amending this code, it menu bar still was not in the center of the page. I
 
 ## Content
 The text, and other data in the database were sources from the below websites:
-* The text from Z section was sourced from 
+*  
 * 
 * 
 * 
 
 ## Media
 * The photos used on the 'Home' page were obtained from my own personal archive.
-* The photos used on 'Shop' page were obtained from [Net a Porter](https://www.net-a-porter.com/en-gb/), [Farfetch](https://www.farfetch.com/uk/) and [Selfidges](https://www.selfridges.com/GB/en/).
+* The photos used on 'Shop' page were obtained from [H&M](https://www2.hm.com/en_gb/index.html).
 * The logo for my footer were taken from [Font Awesome](https://fontawesome.com/).
 
 
