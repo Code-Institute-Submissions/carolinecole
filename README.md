@@ -103,18 +103,22 @@ How to run this project locally
         <div class="col-md-8"> 
            <div class="row bg-color-name-title">
            ```
-After amending this code, it menu bar still was not in the center of the page. I spend a while looking at my website on DevTools and selecting bit and eventually I added in the below code to CSS targeting the menu bar which has fixed the problem. 
-```.menucontainer {
+After amending this code, it menu bar still was not in the center of the page. I spent a while looking at my website on DevTools and selecting bit and eventually I added in the below code to CSS targeting the menu bar which has fixed the problem. 
+    ```
+    .menucontainer {
     font-size: 0px;
     text-align: center;
     } 
-    ```
+           ```
 
     
 4. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
 5. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
 6. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
-7. The button for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to the 
+7. The buttons for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to my code that enabled the image to be positioned in the middle of my image and it works exactly how I want it to now.
+8. The hamburger button was not functioning, I contacted tutor support and it was due to not having the <script> links at the bottom of my HTML file. Once this was added in it fuctioned properly.
+9. After I added hamburger bar added a square colour to the side of my menu bar. I needed 
+10. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
 
 ### Code
 
