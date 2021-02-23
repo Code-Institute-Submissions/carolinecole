@@ -7,7 +7,7 @@ It will consist of 4 pages; home, about, shop and contact.
 
 ### Project Goals
 
-The primary goal for Caroline Cole is to provide a fresh and inivative website which leaves users coming back for more.
+The primary goal for Caroline Cole is to provide a fresh and inovative website which leaves users coming back for more.
 My target audience will be women ages between 20 and 40, and my followers on my Instagram account.  
 
 User goals are:
@@ -129,20 +129,19 @@ After amending this code, it menu bar still was not in the center of the page. I
 ### Code
 
 #### HTML
-* Code for Head links taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/ba5caa84354740b78b7f6c0bfa4d9286/?child=last) and edited slightly to fit projects needs.
-* Code for font taken from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
-* Code for Title section taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
-* Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
-* Code for hover button taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first)and edited slightly to fit projects needs.
-* Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
-* Code taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and amended to fit project.
+* Code for rows 7-10 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/ba5caa84354740b78b7f6c0bfa4d9286/?child=last) and edited slightly to fit projects needs.
+* Code for row 11 from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
+* Code for rows 18-24 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for menu bar rows 34-54 talken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for hover button taken from [Boostrap](https://getbootstrap.com/)and edited slightly to fit projects needs.
+* Code for rows 87-102 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
 * Code for Youtube logo taken from [Font Awesome](https://fontawesome.com/icons/youtube?style=brands).
 * Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
-* Code on About page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended.
+* Code for rows 67-83 on about page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended to suit project.
 * Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
 * Code for my shop page images layout was taken from [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) and amended to fit projet.
-* Code for button taken from https://getbootstrap.com/docs/4.1/components/buttons/.
-* Code for the hamburger bar taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
+* Code for button taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/buttons/)
+* Code for rows 30-35 taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 * Code for the links to boostrap taken from [Boostrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js).
 
  #### CSS
@@ -151,7 +150,6 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code for the menu bar which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
 * Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
 * Code for about page image taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
-* Code for subheading background taken from [wearetwinset](https://wearetwinset.com/) and edited to fit project.
 * Code for to centralise about page image taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
 * Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
 * Code for hover button from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
@@ -170,3 +168,4 @@ The text, and other data in the database were sources from the below websites:
 
 
 ## Acknowledgements
+* The tutor support have helped my during this project, whether it 
