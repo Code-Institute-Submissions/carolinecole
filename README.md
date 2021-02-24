@@ -93,14 +93,12 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 ```<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"> ```
 * [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator) found no error attached for ref [CSS Testing](assets/testing/css-testing.png)
 * [HTML validator](https://validator.w3.org/#validate_by_input) found no errors attached for ref [HTML Testint](assets/testing/html-testing.png)
-
+* [Lighthouse](assets/testing/lighthouse.png) 
 
 ## Deployment
 
 How to run this project locally
 
-
-## Credits
 
 ### Bugs Discovered 
 #### Solved bugs
@@ -126,6 +124,7 @@ After amending this code, it menu bar still was not in the center of the page. I
 8. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
 9. Once selected my navbar was jumping, to stop this from happening I removed the html code ```<a class="navbar-brand" href="#"></a>``` aftering reviewing my code on dev tools and speaking with tutor support.
 
+## Credits
 ### Code
 
 #### HTML
