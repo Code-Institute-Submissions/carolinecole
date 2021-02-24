@@ -141,7 +141,7 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code for buttons on shop page rows 67-105 was taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/buttons/)
 * Code for rows 30-35 taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 * The scripts links taken from [Boostrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js).
-
+* Code for the for the subscribe button rows 18-28 take from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/)
  #### CSS
 * Code for the menu bar rows 82-84 which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
 * Code for the footer rows 230-257 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
