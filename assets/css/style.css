@@ -57,6 +57,10 @@ body {
     }   
 }
 
+.btn-primary:hover{
+    background-color: #1a4944;
+    border-color: #1a4944;
+}
 
 /*-----------------------------------------------------------Heading*/
 
@@ -198,6 +202,11 @@ header {
     color: #fafafa;
     background-color: #216861;
     border-color: #216861;
+}
+
+.btn-contact:hover {
+    background-color: #1a4944;
+    border-color: #1a4944;
 }
 
 @media(min-width: 992px) {
