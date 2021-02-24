@@ -102,8 +102,7 @@ How to run this project locally
 
 ### Bugs Discovered 
 #### Solved bugs
-1. The font was coming up with an error when opened the DevTools. I went onto Tutor support to get some assistance as to which I needed to hard reload my browser.
-2. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first to eliminate the contact menu item being below) lesson to help fix this issue. 
+2. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first lesson to help fix this issue.
 3. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support and I had a div taking up a huge section of the page so I removed the below code which I got from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first):
     ```<div class="row no-gutters">
         <a href="index.html" class="col-md-4 logo"></a>
@@ -145,21 +144,13 @@ After amending this code, it menu bar still was not in the center of the page. I
 * The scripts links taken from [Boostrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js).
 
  #### CSS
-* Code for Heading used from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
-* Code for menu bar taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
-* Code for the menu bar which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
-* Code for the footer taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
-* Code for about page image taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
-* Code for to centralise about page image taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
-* Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
-* Code for hover button from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
+* Code for the menu bar rows 82-84 which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
+* Code for the footer rows 230-257 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
+* Code for about page image rows 125-139 taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
+* Code for to centralise about page image rows 125-132 taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
+* Code for contact page rows 162-196 form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
+* Code for hover button row 14-25 from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
 
-## Content
-The text, and other data in the database were sources from the below websites:
-*  
-* 
-* 
-* 
 
 ## Media
 * The photos used on the 'Home' page were obtained from my own personal archive.

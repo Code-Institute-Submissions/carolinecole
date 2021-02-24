@@ -5,8 +5,6 @@
 
 
 
-/* credit: code for... has been taken from ... and edited slightly to fit projects needs */
-
 /*-----------------------------------------------------------General, Buttons, Fonts*/
 
 .text-center {
@@ -40,8 +38,6 @@ body {
 
 /*-----------------------------------------------------------Heading*/
 
-/* credit: code for heading section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and edited slightly to projects needs*/
-
 header {
     margin: 0;
 }
@@ -53,7 +49,6 @@ header {
     float: none;
 }
 
-/* bugs solved: had an issue with my font not loading, I spoke to tutor support and he advised to re-copy and paste the font of my choice from google fonts and then as it still did not work do a hard relaod of my browser page*/
 .name {
     font-family: 'Questrial', sans-serif;
     font-size: 50px;
@@ -74,8 +69,6 @@ header {
 }
 
 
-/* credit: code for heading section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first and amended slightly to fit my projects needs */
-
 .list-inline-item a {
     color: #000000;
     font-weight: 600;
@@ -83,7 +76,6 @@ header {
     padding: 0;
 }
 
-/* bugs solved: this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first to eliminate the contact menu item being below */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -97,8 +89,6 @@ header {
     margin-bottom: 20px;
     font-weight: 900;
 }
-
-/* credit: inspiration for this code from https://wearetwinset.com/ but amended to fit project */
 
 
 .subheading-background {
@@ -129,18 +119,8 @@ header {
 }
 
 
-
-/*-----------------------------------------------------------Body*/
-
-
-
-
-
-
 /*-----------------------------------------------------------About*/
 
-/* credit: code taken from https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css and amended to fit project */
-/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */
 
 .about-image {
     width: 300px;
@@ -168,15 +148,8 @@ header {
     padding-bottom: 60px;
 }
 
-/* credit: code taken from website to help me get the button to disappear and appear when the image is hovered over https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870 */
-
-
-
-
 
 /*-----------------------------------------------------------Contact*/
-
-/* credit: code for this section taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first and amended to fit project */
 
 .contact-heading {
     color: #000000;
@@ -214,8 +187,7 @@ header {
     }   
 }
 
-
-/*-----------------------------------------------------------How to Style Mom Jeans*/
+/*-----------------------------------------------------------Blogs*/
 
 .blog-p {
     margin: 0;
@@ -254,8 +226,6 @@ footer {
     text-align: center;
 }
 
-/* credit: code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first and edited to fit projects needs */
-
 .site-footer {
     color: #fafafa;
     background-color: #216861;
@@ -269,8 +239,6 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-/* credit: code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first and amended to fit websites needs */
 
 .social-links {
     color: #fafafa;
