@@ -91,7 +91,9 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 ``` <a href="how-to-style-mom-jeans.html" class="btn btn-primary btn-shop blog-post-link" aria-pressed="false" autocomplete="off">Link to product</a> ```
 2. I needed to change the ``` aria-controls=navbarSupportedContent ``` to ``` aria-controls="main-navbar" ``` so it targeted a nav in my document.
 ```<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"> ```
-* [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator) found no errors.
+* [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator) found no error attached for ref [CSS Testing](assets/testing/css-testing.png)
+* [HTML validator](https://validator.w3.org/#validate_by_input) found no errors attached for ref [HTML Testint](assets/testing/html-testing.png)
+
 
 ## Deployment
 
