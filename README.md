@@ -122,7 +122,7 @@ After amending this code, it menu bar still was not in the center of the page. I
 6. The buttons for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to my code that enabled the image to be positioned in the middle of my image and it works exactly how I want it to now.
 7. The navbar button was not functioning, I contacted tutor support and it was due to not having the ```<script> ```links at the bottom of my HTML file. Once this was added in it fuctioned properly.
 8. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
-9. Once selected my navbar was jumping, to stop this from happening I removed the html code ```<a class="navbar-brand" href="#"></a>``` to stop this from happening.
+9. Once selected my navbar was jumping, to stop this from happening I removed the html code ```<a class="navbar-brand" href="#"></a>``` aftering reviewing my code on dev tools and speaking with tutor support.
 
 ### Code
 
