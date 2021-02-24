@@ -34,9 +34,6 @@ body {
     padding-top: 15px;
 }
 
-navbar-toggler-icon {
-
-}
 
 
 
@@ -196,8 +193,8 @@ header {
 .blog-p {
     margin: 0;
     color: #000000;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
