@@ -14,6 +14,32 @@
 </head>
 <body>
         <header>
+            <!--this section will contact a link for users to be able to subscribe to the website-->
+        <button type="button" class="btn btn-primary btn-subscribe pull-right" data-toggle="modal" data-target="#modal-subscribe" data-whatever="@mdo">Subscribe</button> 
+        <div class="modal fade" id="modal-subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribe-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title subscribe-heading" id="subscribe-label">Subscribe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">Your email:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary modal-internal-btn" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary modal-internal-btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    </div>
     <!--page header this will feature on all pages-->
         <div class="container page-header">       
             <div class="row">
