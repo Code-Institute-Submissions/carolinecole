@@ -61,7 +61,7 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Home page](assets/wireframes/home-page.pdf)
 * [About page](assets/wireframes/about-page.pdf)
 * [Shop page](assets/wireframes/shop-page.pdf)
-* [Contact](assets/wireframes/home-page.pdf)
+* [Contact](assets/wireframes/contact-page.pdf)
 * [Five ways to get through lockdown!](assets/wireframes/blog-page.pdf)
 * [How to style Mom jeans!](assets/wireframes/blog2-page.pdf)
 * [Guide to buying the perfect sportwear!](assets/wireframes/blog3-page.pdf)
@@ -102,8 +102,8 @@ How to run this project locally
 
 ### Bugs Discovered 
 #### Solved bugs
-2. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first lesson to help fix this issue.
-3. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support and I had a div taking up a huge section of the page so I removed the below code which I got from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first):
+1. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first lesson to help fix this issue.
+2. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support and I had a div taking up a huge section of the page so I removed the below code which I got from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first):
     ```<div class="row no-gutters">
         <a href="index.html" class="col-md-4 logo"></a>
         <div class="col-md-8"> 
@@ -116,14 +116,13 @@ After amending this code, it menu bar still was not in the center of the page. I
     text-align: center;
     } 
            ```
-
-4. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
-5. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
-6. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
-7. The buttons for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to my code that enabled the image to be positioned in the middle of my image and it works exactly how I want it to now.
-8. The hamburger button was not functioning, I contacted tutor support and it was due to not having the ```<script> ```links at the bottom of my HTML file. Once this was added in it fuctioned properly.
-9. After I added hamburger bar added a square colour to the side of my menu bar. I needed 
-10. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
+3. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
+4. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
+5. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
+6. The buttons for my shop page was underneath my images, I wanted these to be in the middle of my image. I contacted Tutor support to help me re-position these as it seemed to want to be placed towards one side of the image. Amendments were made to my code that enabled the image to be positioned in the middle of my image and it works exactly how I want it to now.
+7. The navbar button was not functioning, I contacted tutor support and it was due to not having the ```<script> ```links at the bottom of my HTML file. Once this was added in it fuctioned properly.
+8. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
+9. Once selected my navbar was jumping, to stop this from happening 
 
 ### Code
 
