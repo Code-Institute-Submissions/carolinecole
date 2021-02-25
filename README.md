@@ -33,9 +33,10 @@ Caroline Cole will meet users needs by:
 ### User stories
 * The ability to easily use and navigate the website.
 * Relevant, interesting blog posts which leaves me wanting to come back for me.
+* About page with information about the blogger and somewhere I can connect with her.
 * A functing contact page, which allows me to contact the blog owner.
-* Visual icons and images with functioning links to relevant webpages.
-* A stylish, 
+* Visual icons and images with functioning links to relevant webpages., making it easy to shop these products. 
+* A section with functioning links to the blogger's social media accounts.
 
 
 ### Design Choices
@@ -96,13 +97,44 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 4. [Lighthouse](https://web.dev/performance-scoring/) for each page:
     * Index page orginially got a lower perfomance rating that I hoped [lighthouse before amendments](assets/testing/lighthouse-index.png) I commented out the script links I was not using at the bottom of the page and reduced the size of my images which I then amended on every page and I am now very happy with my [performance rating](assets/testing/lighthouse-index-new.png).
     * About page originally got [Lighthouse before amendments](assets/testing/lighthouse-about.png) 
-    * Shop page originally got [Lighthouse before amendments](assets/testing/lighthouse-shop.png) I change the CSS code for the image size to have a width of auto which increased the best practice by 10. 
-    * Contact page originally got [Lighthouse before amendments](assets/testing/lighthouse-contact.png)
+    * Shop page originally got [Lighthouse before amendments](assets/testing/lighthouse-shop.png) I change the CSS code for the image size to have a width of auto which increased the best practice by 10. Then I needed to increase the resolution of my first image and I am now happy with the performace [performance rating](assets/testing/lighthouse-shop-new).
+    * Contact page originally got [Lighthouse before amendments](assets/testing/lighthouse-contact.png) 
     * Blog pages originally got [Lighthouse before amendments](assets/testing/lighthouse-blog.png)
+
+## Testing client stories from UX section of README.md
+1. As a new visitor to the website, I want to easily use and navigate the website.
+    * Every page the user visits, they can easliy find and use the navigation bar.
+    * The footer has a link back to the home page.
+    * The home page has further links when an image is hovered over to my blog posts.
+    * The shop page is easy to navigate with a button to select linking to the website of the product.
+    * There is a subscribe button at the for users to subscribe so they do not miss out.
+
+2. As a new user to the website, I want to see relevant, interesting blog posts which leaves me wanting to come back for me.
+    * The blog posts are featured on the home page with links to each blog when hovered over.
+    * This page is designed to be added to new with relevant blog posts, so it will be continually evolving.
+    * Blog posts are about relevant topics.
+
+3. As a new user to the website, I would like an about page with information about the blogger.
+    * A clearly labelled About page which is easy to navigate to and around.
+    * An image of the the blogger and a message from her which is informally and very welcoming leaves me wanting to know more and visit her other social media accounts.
+
+4. As a new user to the website, I want a contact page, which allows me to connect with her.
+    * A clearly labelled contact page which is easy to navigate.
+
+5. Visual icons and images with functioning links to relevant webpages, making it easy to shop these products. 
+    * A good amount of images and easy to navigate around the images and sections.
+    * Images when hovered over has a button to allow the user to know what she is selecting and where they are being taken to.
+    * Links to the relevant websites are fully functioning.
+
+6. A section with functioning links to the blogger's social media accounts.
+    * The footer contains links to instagram and youtube pages.
+    * This is easy to find and locate. 
 
 ## Deployment
 
-How to run this project locally
+
+
+## How to run this project locally 
 
 
 ### Bugs Discovered 
