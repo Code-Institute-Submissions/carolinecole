@@ -27,7 +27,9 @@ Caroline Cole will meet users needs by:
 
 ### Developer and Business Goals 
 * A professional website which is user friendly and stylist.
-* A project I am excited about and is easy to add to.
+* A project I am excited about and is about to adapt and and content can be added to easily.
+* A project I am passionate about and excited to add to my portfolio of work.
+* Improve my skills as a developer and learn new exciting ideas and coding rules and langaues.
 
 
 ### User stories
@@ -38,24 +40,24 @@ Caroline Cole will meet users needs by:
 * Visual icons and images with functioning links to relevant webpages., making it easy to shop these products. 
 * A section with functioning links to the blogger's social media accounts.
 
-
 ### Design Choices
-* I designed this website to be 
+* I designed this website to be a blog page which suits the blogger and her requirements which leaves the users wanting to come back for me. The following design choises were made with this in mind:
 
 ### Fonts
-I chose to use Questrial font from [Google Fonts]('https://fonts.googleapis.com/css2?family=Questrial&display=swap') in my project because it is simple, easy to read and stylish. Oringinally I wanted to use Montserrat font but I decided it was quite faint and not very easy to read so I changed to more of a solid font.
+* I chose to use Questrial font from [Google Fonts]('https://fonts.googleapis.com/css2?family=Questrial&display=swap') in my project because it is simple, easy to read and stylish. Oringinally I wanted to use Montserrat font but I decided it was quite faint and not very easy to read so I changed to more of a solid font.
 
 ### Icons
-I chose to use the Twitter, Youtube and Instagram icons in my project with links to those pages from [Font awesome](https://fontawesome.com/).
+* I chose to use the Twitter, Youtube and Instagram icons in my project with links to those pages from [Font awesome](https://fontawesome.com/).
+* I chose to use teal buttons that appears when the image was hovered over. I added this to ensur the user is clear once the button is clicked it will take them elsewhere or open up another page.
 
 ### Colours
-I chose to keep the colours simple using black for fonts and a white background. Oringinally I wanted to do dark grey however I decided black stood out more, was easier to read and more user friendly.
+* I chose to keep the colours simple using black for fonts, a white background with a lovely teal footer and buttons for some added difference. Oringinally I wanted to do dark grey however I decided black stood out more, was easier to read and more user friendly.
 
 ### Backgrounds
-I chose to keep the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content. I added a lovely teal green to the heading line and footer to add some colour which I think suits the website and looks very chic.
+* I chose to keep the backgrounds plain white because I will be adding images and I do not want it to look messy, or distract user from the page content. I added a lovely teal green to the heading line and footer to add some colour which I think suits the website and looks very chic.
 
 ### Images
-The images on my home page, about page and blog post pages have all been obtained from my personal archive of images. The shop page images have all been obtained from [H&M](https://www2.hm.com/en_gb/index.html) and [Net a Porter](https://www.net-a-porter.com/en-gb/)and a link has been added to these so my users can visit the page accordingly.
+* The images on my home page, about page and blog post pages have all been obtained from my personal archive of images. The shop page images have all been obtained from [H&M](https://www2.hm.com/en_gb/index.html) and [Net a Porter](https://www.net-a-porter.com/en-gb/)and a link has been added to these so my users can visit the page accordingly.
 
 ## Wireframes
 These wireframes were created using Blasmiq during the Scope Plane part of my design and planning process.
@@ -131,8 +133,19 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
     * This is easy to find and locate. 
 
 ## Deployment
+To clone this project into Gitpod you will need:
+1. A Github accoun [Github account](https://github.com/)
+2. Use the Chrome browser.
 
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. after installation, restart browser.
+3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
+4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/carolinecole)
+5. Clear the green Gitpod button in the top right corner of the repository.
+6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
 
+To work on the project code within a local IDE such as VSCode, Pycharm:
 
 ## How to run this project locally 
 
