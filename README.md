@@ -86,14 +86,19 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js)
 
 ## Testing
-* [W3 HTML validator](https://validator.w3.org/) validation came up with a few amendments I have added below:
-1. I needed to remove the ``` autocomplete="off" ``` attribute and added in the ``` role="button" ``` attribute on my shop page and home page.
+1. [W3 HTML validator](https://validator.w3.org/) validation came up with a few amendments I have added below:
+    * I needed to remove the ``` autocomplete="off" ``` attribute and added in the ``` role="button" ``` attribute on my shop page and home page.
 ``` <a href="how-to-style-mom-jeans.html" class="btn btn-primary btn-shop blog-post-link" aria-pressed="false" autocomplete="off">Link to product</a> ```
-2. I needed to change the ``` aria-controls=navbarSupportedContent ``` to ``` aria-controls="main-navbar" ``` so it targeted a nav in my document.
+    * I needed to change the ``` aria-controls=navbarSupportedContent ``` to ``` aria-controls="main-navbar" ``` so it targeted a nav in my document.
 ```<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"> ```
-* [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator) found no error attached for ref [CSS Testing](assets/testing/css-testing.png)
-* [HTML validator](https://validator.w3.org/#validate_by_input) found no errors attached for ref [HTML Testint](assets/testing/html-testing.png)
-* [Lighthouse](assets/testing/lighthouse.png) 
+2. [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator) found no error attached for ref [CSS Testing](assets/testing/css-testing.png)
+3. [HTML validator](https://validator.w3.org/#validate_by_input) found no errors attached for ref [HTML Testint](assets/testing/html-testing.png)
+4. [Lighthouse](https://web.dev/performance-scoring/) for each page:
+    * Index page orginially got a lower perfomance rating that I hoped [lighthouse before amendments](assets/testing/lighthouse-index.png) I commented out the script links I was not using at the bottom of the page and reduced the size of my images which I then amended on every page and I am now very happy with my [performance rating](assets/testing/lighthouse-index-new.png).
+    * About page originally got [Lighthouse before amendments](assets/testing/lighthouse-about.png) 
+    * Shop page originally got [Lighthouse before amendments](assets/testing/lighthouse-shop.png) I change the CSS code for the image size to have a width of auto which increased the best practice by 10. 
+    * Contact page originally got [Lighthouse before amendments](assets/testing/lighthouse-contact.png)
+    * Blog pages originally got [Lighthouse before amendments](assets/testing/lighthouse-blog.png)
 
 ## Deployment
 
