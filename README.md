@@ -97,11 +97,11 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 2. [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator) found no error attached for ref [CSS Testing](assets/testing/css-testing.png)
 3. [HTML validator](https://validator.w3.org/#validate_by_input) found no errors attached for ref [HTML Testint](assets/testing/html-testing.png)
 4. [Lighthouse](https://web.dev/performance-scoring/) for each page:
-    * Index page orginially got a lower perfomance rating that I hoped [lighthouse before amendments](assets/testing/lighthouse-index.png) I commented out the script links I was not using at the bottom of the page and reduced the size of my images which I then amended on every page and I am now very happy with my [performance rating](assets/testing/lighthouse-index-new.png).
-    * About page originally got [Lighthouse before amendments](assets/testing/lighthouse-about.png) 
-    * Shop page originally got [Lighthouse before amendments](assets/testing/lighthouse-shop.png) I change the CSS code for the image size to have a width of auto which increased the best practice by 10. Then I needed to increase the resolution of my first image and I am now happy with the performace [performance rating](assets/testing/lighthouse-shop-new).
-    * Contact page originally got [Lighthouse before amendments](assets/testing/lighthouse-contact.png) 
-    * Blog pages originally got [Lighthouse before amendments](assets/testing/lighthouse-blog.png)
+    * Index page orginially got a lower perfomance rating that I hoped [lighthouse before amendments](assets/testing/lighthouse-index.png) I commented out the script links I was not using at the bottom of the page and reduced the size of my images which I then amended on every page and I am now very happy with my [Lighthouse after amendments](assets/testing/lighthouse-index-new.png).
+    * About page originally got [Lighthouse before amendments](assets/testing/lighthouse-about.png) I amended the size of my image and adjusted the shape [Lighthouse after amendments](assets/testing/lighthouse-about-new.png).
+    * Shop page originally got [Lighthouse before amendments](assets/testing/lighthouse-shop.png) I change the CSS code for the image size to have a width of auto which increased the best practice by 10. Then I needed to increase the resolution of my first image and I am now happy with what lighthouse is showing [Lighthouse after amendments](assets/testing/lighthouse-shop-new).
+    * Contact page originally got [Lighthouse before amendments](assets/testing/lighthouse-contact.png). Once I have a fully functioning form I would hope this will improve.
+    * Blog pages originally got [Lighthouse before amendments](assets/testing/lighthouse-blog.png). I commented out the ```<script>``` links I did not require at this moment and amended the image sizes slightly [Lighthouse after amendments](assets/testing/lighthouse-shop-new.png).
 
 ## Testing client stories from UX section of README.md
 1. As a new visitor to the website, I want to easily use and navigate the website.
@@ -133,6 +133,12 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
     * This is easy to find and locate. 
 
 ## Deployment
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. Log into Github.
+2. From the list of repositories on the screen, select 
+
+
 To clone this project into Gitpod you will need:
 1. A Github accoun [Github account](https://github.com/)
 2. Use the Chrome browser.
