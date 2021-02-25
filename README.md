@@ -215,4 +215,4 @@ After amending this code, it menu bar still was not in the center of the page. I
 
 
 ## Acknowledgements
-* The tutor support have helped my during this project, whether it 
+* The tutor support have helped my during this project to overcome some issues I have experience which I have documents in my code section. 
