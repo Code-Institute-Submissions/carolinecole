@@ -69,17 +69,6 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 * [How to style Mom jeans!](assets/wireframes/blog2-page.pdf)
 * [Guide to buying the perfect sportwear!](assets/wireframes/blog3-page.pdf)
 
-## Features
-
-
-### Existing Features
-
-
-
-### Features Left to Implement
-
-
-
 ## Technologies Used
 * [Google Fonts](https://https://fonts.google.com/) has been used for my.
 * [Font awesome](https://fontawesome.com/) has been used for my social media links in my header and footer.
@@ -135,10 +124,16 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 ## Deployment
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-1. Log into Github.
-2. From the list of repositories on the screen, select 
+1. Log into **Github**.
+2. From the list of repositories on the screen, select **carolinecole**.
+3. From the menu items near the top of the page, select **settings**.
+4. Scroll down to the **Github Pages** section
+5. Under source click the drop-down menu labelled **None** and selcted **master branch/ main**.
+6. On selecting **master branch** a section drop-down will appear, select **root**.
+7. Select **save**, it might take 5-10 minutes for Github to finish building the site the first time.
+8. Scroll back to the top of **GitHub Pages** section to get the link to the deployed wesbite. 
 
-
+## How to run this project locally 
 To clone this project into Gitpod you will need:
 1. A Github accoun [Github account](https://github.com/)
 2. Use the Chrome browser.
@@ -152,8 +147,6 @@ Then follow these steps:
 6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
 
 To work on the project code within a local IDE such as VSCode, Pycharm:
-
-## How to run this project locally 
 
 
 ### Bugs Discovered 
