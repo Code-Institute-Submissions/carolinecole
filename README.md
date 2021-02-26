@@ -123,20 +123,19 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
 
 ### Bugs Discovered 
 #### Solved bugs
-1. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first lesson to help fix this issue.
-2. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support and I had a div taking up a huge section of the page so I removed the below code which I got from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first):
+1. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) lesson to help fix this issue.
+2. The menu bar was not centered to the page, it was positioned to the right of the page. To solve this I asked tutor support and I had a div taking up a huge section of the page so I removed the below code which I got from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download):
     ```<div class="row no-gutters">
         <a href="index.html" class="col-md-4 logo"></a>
         <div class="col-md-8"> 
            <div class="row bg-color-name-title">
            ```
 After amending this code, it menu bar still was not in the center of the page. I spent a while looking at my website on DevTools and selecting bit and eventually I added in the below code to CSS targeting the menu bar which has fixed the problem. 
-    ```
-    .menucontainer {
+    ``` .menucontainer {
     font-size: 0px;
     text-align: center;
-    } 
-           ```
+    } ```
+
 3. The font awesome social media icons I used did not load, after checking my links from font awesome I changed it slightly and it started working.
 4. Image on my about page did not load, I used [w3schools](https://www.w3schools.com/html/html_images.asp) for coding tips and then asked tutor support. I had not added the full image link so amended this and it worked.
 5. I wanted the buttons on my shop page to only appear when hovered over the image so the user can select to be taken to the website. I researched it and got the relevant code but reached out to Tutor Support as the button was not letting me select it. I had to amend the class I was selecting in CSS and this worked perfectly. 
@@ -165,7 +164,7 @@ To clone this project into Gitpod you will need:
 
 Then follow these steps:
 1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
-2. after installation, restart browser.
+2. After installation, restart browser.
 3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
 4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/carolinecole)
 5. Clear the green Gitpod button in the top right corner of the repository.
@@ -186,13 +185,13 @@ To work on the project code within a local IDE such as VSCode, Pycharm:
 #### HTML
 * Code for rows 7-10 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
 * Code for row 11 from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
-* Code for rows 18-24 taken from [Code Institue](hhttps://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
-* Code for menu bar rows 34-54 talken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
+* Code for page heading taken from [Code Institue](hhttps://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
+* Code for menu bar rows taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
 * Code for hover button taken from [Boostrap](https://getbootstrap.com/)and edited slightly to fit projects needs.
-* Code for rows 87-102 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited to fit projects needs.
+* Code for about page body taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited to fit projects needs.
 * Code for Youtube logo taken from [Font Awesome](https://fontawesome.com/icons/youtube?style=brands).
 * Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
-* Code for rows 67-83 on about page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended to suit project.
+* Code for on about page body text layout taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended to suit project.
 * Code for contact page form taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
 * Code for rows 67-105 on shop page images layout was taken from [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) and amended to fit projet.
 * Code for buttons on shop page rows 67-105 was taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/buttons/)
