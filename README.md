@@ -186,10 +186,10 @@ After amending this code, it menu bar still was not in the center of the page. I
 #### HTML
 * Code for rows 7-10 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/ba5caa84354740b78b7f6c0bfa4d9286/?child=last) and edited slightly to fit projects needs.
 * Code for row 11 from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
-* Code for rows 18-24 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for rows 18-24 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
 * Code for menu bar rows 34-54 talken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
 * Code for hover button taken from [Boostrap](https://getbootstrap.com/)and edited slightly to fit projects needs.
-* Code for rows 87-102 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
+* Code for rows 87-102 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited to fit projects needs.
 * Code for Youtube logo taken from [Font Awesome](https://fontawesome.com/icons/youtube?style=brands).
 * Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
 * Code for rows 67-83 on about page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended to suit project.
@@ -199,13 +199,14 @@ After amending this code, it menu bar still was not in the center of the page. I
 * Code for rows 30-35 taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 * The scripts links taken from [Boostrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js).
 * Code for the for the subscribe button rows 18-28 take from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/)
+ 
  #### CSS
-* Code for the menu bar rows 82-84 which contained a bug was taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) becuase the menu bar was displaying on 2 lines.  
-* Code for the footer rows 230-257 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
-* Code for about page image rows 125-139 taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
+* Code for the menu bar rows 88-95 which contained a bug was taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) becuase the menu bar was displaying on 2 lines.  
+* Code for the footer rows 230-257 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
+* Code for about and shop page image rows 125-139 taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
 * Code for to centralise about page image rows 125-132 taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
-* Code for contact page rows 162-196 form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
-* Code for hover button row 14-25 from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
+* Code for contact page rows 180-220 form taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
+* Code for button to only appear when hovered over row 14-25 taken from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
 
 
 ## Media
