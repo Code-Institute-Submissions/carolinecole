@@ -166,6 +166,7 @@ header {
 
 /*-----------------------------------------------------------Shop*/
 
+/*credit: code taken from https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css and amended*/
 .item-img {
     width: auto;
     height: 400px;
@@ -177,6 +178,7 @@ header {
 
 /*-----------------------------------------------------------Contact*/
 
+/*credit: code taken from https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download and amended*/
 .contact-heading {
     color: #000000;
     font-weight: 400;

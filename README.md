@@ -121,34 +121,6 @@ These wireframes were created using Blasmiq during the Scope Plane part of my de
     * The footer contains links to instagram and youtube pages.
     * This is easy to find and locate. 
 
-## Deployment
-
-To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-1. Log into **Github**.
-2. From the list of repositories on the screen, select **carolinecole**.
-3. From the menu items near the top of the page, select **settings**.
-4. Scroll down to the **Github Pages** section
-5. Under source click the drop-down menu labelled **None** and selcted **master branch/ main**.
-6. On selecting **master branch** a section drop-down will appear, select **root**.
-7. Select **save**, it might take 5-10 minutes for Github to finish building the site the first time.
-8. Scroll back to the top of **GitHub Pages** section to get the link to the deployed wesbite. 
-
-## How to run this project locally 
-To clone this project into Gitpod you will need:
-1. A Github accoun [Github account](https://github.com/)
-2. Use the Chrome browser.
-
-Then follow these steps:
-1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
-2. after installation, restart browser.
-3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
-4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/carolinecole)
-5. Clear the green Gitpod button in the top right corner of the repository.
-6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
-
-To work on the project code within a local IDE such as VSCode, Pycharm:
-
-
 ### Bugs Discovered 
 #### Solved bugs
 1. The menu bar was showing on two lines instead of one, to fix this I used [Code Institue](this code was taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first lesson to help fix this issue.
@@ -173,30 +145,65 @@ After amending this code, it menu bar still was not in the center of the page. I
 8. Once I added in the script links to my webpage the links on my images stopped working. After using Dev tools and speaking to tutor support so realised it was the data-toggle="button" which seemed to blocking the href from working, once this has been removed it worked perfectly.
 9. Once selected my navbar was jumping, to stop this from happening I removed the html code ```<a class="navbar-brand" href="#"></a>``` aftering reviewing my code on dev tools and speaking with tutor support.
 
+
+## Deployment
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. Log into **Github**.
+2. From the list of repositories on the screen, select **carolinecole**.
+3. From the menu items near the top of the page, select **settings**.
+4. Scroll down to the **Github Pages** section
+5. Under source click the drop-down menu labelled **None** and selcted **master branch/ main**.
+6. On selecting **master branch** a section drop-down will appear, select **root**.
+7. Select **save**, it might take 5-10 minutes for Github to finish building the site the first time.
+8. Refresh your **GitHub Pages** section to get the link to the deployed wesbite. 
+
+## How to run this project locally 
+To clone this project into Gitpod you will need:
+1. A Github accoun [Github account](https://github.com/)
+2. Use the Chrome browser.
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. after installation, restart browser.
+3. Log into [Gitpod](https://www.gitpod.io/) with your gitpod account.
+4. Navigate to the [Porject Github Repository](https://github.com/carolinecole25/carolinecole)
+5. Clear the green Gitpod button in the top right corner of the repository.
+6. This will trigger a new gitpos workspace to be created from the code in github where you can work locally. 
+
+To work on the project code within a local IDE such as VSCode, Pycharm:
+1. Follow this link to the [Porject Github Repository](https://github.com/carolinecole25/carolinecole).
+2. Under the repository name click **Clone / Download**.
+3. In the clone with HTTPs section, copy the URL for the repository.
+4. In your local IDE open the terminal.
+5. Change the current working directory to the location you want the cloned directory to be.
+6. Type git clone, and then paste the URL you copied.
+7. select enter and your local clone will be created.
+
 ## Credits
 ### Code
 
 #### HTML
-* Code for rows 7-10 taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/ba5caa84354740b78b7f6c0bfa4d9286/?child=last) and edited slightly to fit projects needs.
+* Code for rows 7-10 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
 * Code for row 11 from [Google Fonts](https://https://fonts.google.com/specimen/Montserrat?preview.text_type=custom&sidebar.open=true&selection.family=Montserrat:wght@100) and amended slightly to fit project. 
-* Code for rows 18-24 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
-* Code for menu bar rows 34-54 talken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/f99dac3afcfe4b2caf8d576273aea3e6/?child=first) and edited slightly to fit projects needs.
+* Code for rows 18-24 taken from [Code Institue](hhttps://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
+* Code for menu bar rows 34-54 talken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited slightly to fit projects needs.
 * Code for hover button taken from [Boostrap](https://getbootstrap.com/)and edited slightly to fit projects needs.
 * Code for rows 87-102 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and edited to fit projects needs.
 * Code for Youtube logo taken from [Font Awesome](https://fontawesome.com/icons/youtube?style=brands).
 * Code for instagram logo taken from [Font Awesome](https://fontawesome.com/icons/instagram?style=brands).
 * Code for rows 67-83 on about page taken from [w3schools](https://www.w3schools.com/html/html_images.asp) and amended to suit project.
-* Code for contact page form taken from [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/715392be2ba942abb1b6f9eaf566aed6/?child=first) and amended to fit project.
+* Code for contact page form taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
 * Code for rows 67-105 on shop page images layout was taken from [Bootstrap](https://getbootstrap.com/docs/5.0/layout/grid/) and amended to fit projet.
 * Code for buttons on shop page rows 67-105 was taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/buttons/)
-* Code for rows 30-35 taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
+* Code for nav bar rows 56-80 taken from [Boostrap](https://getbootstrap.com/docs/4.1/components/navbar/) and amended to fit project.
 * The scripts links taken from [Boostrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/#js).
-* Code for the for the subscribe button rows 18-28 take from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/)
+* Code for the for the subscribe button rows 18-42 take from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/) and amended to fit project.
  
  #### CSS
 * Code for the menu bar rows 88-95 which contained a bug was taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) becuase the menu bar was displaying on 2 lines.  
 * Code for the footer rows 230-257 taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and [Code Institue](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/?child=first) and edited to fit projects needs.
-* Code for about and shop page image rows 125-139 taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
+* Code for about page image rows 125-139 taken from [stackoverflow](https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css) and amended to fit project. 
 * Code for to centralise about page image rows 125-132 taken from [w3schools](/* credit: code taken from https://www.w3schools.com/howto/howto_css_image_center.asp and amended to fit project */) and amended to fit project.
 * Code for contact page rows 180-220 form taken from [Code Institue](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/18-resume-for-download) and amended to fit project.
 * Code for button to only appear when hovered over row 14-25 taken from [Stack Overflow](https://stackoverflow.com/questions/40891570/show-button-on-hover-only/40891870) and amended to fit project.
